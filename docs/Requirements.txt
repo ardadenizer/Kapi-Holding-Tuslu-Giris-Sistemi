@@ -1,0 +1,6 @@
+Functional requirements:
+1-) The system will be unclocked by 4 key inputs.
+2-) When the correct password is entered, the door will be unlocked. In the first stage of the project, a servo motor will be used to control the door lock.
+3-) A LED will be used to give feedback to the user. When the correct password is entered the LED will light up green, when the wrong password is entered the LED will light up red for duration of 1 second.
+4-) When the correct password is entered, the servo motor will rotate with a specific angle to a specific direction.
+5-) When the wrong password is entered, the system will not accept any user input withnin 10 seconds. 
