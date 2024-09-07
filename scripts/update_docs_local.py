@@ -13,8 +13,9 @@ SCOPES = [
 
 # Dictionary to store document names and their respective Google Docs IDs
 DOCS = {
-    'functional_requirements': '1NxX7krtwGDKubcgMhywKqDutGe2N-S4RxEhr5U7UBcQ',
-    'system_block_diagram': '1_jM4hqGpjIw_PULmp0QU2PRDqzd9vfIFmgAreEXpT6Y',  # Add more documents here
+    'functional_requirements'   :   '1NxX7krtwGDKubcgMhywKqDutGe2N-S4RxEhr5U7UBcQ',
+    'system_block_diagram'      :   '1_jM4hqGpjIw_PULmp0QU2PRDqzd9vfIFmgAreEXpT6Y', 
+    'image_header_format'       :   '1YRyL9LV3EeHB6F6ykJld1RqNFcYsZPE8idEsm5IjGS8'  # Add more documents here
 }
 
 # Load paths from environment variables, defaulting to the current folder if not set
