@@ -2,6 +2,9 @@
 
 Coskun Tasdemir'in  superpeer platformu ustunde  duzenledigi serinin proje reposu.
 
+### Project Block Diagram:
+![Project Block Diagram](./docs/assets/project_block_diagram.png)
+
 # Python Requirements
 ## Setting Up Python Environment
 To run the script, you need to have Python 3.x installed and set up in your environment. You'll also need to install the necessary Python packages.
