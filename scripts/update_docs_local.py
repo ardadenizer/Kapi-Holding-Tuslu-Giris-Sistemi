@@ -92,7 +92,7 @@ def main():
             with open(last_modified_file, 'r') as f:
                 last_known_modified_time = f.read().strip()
         else:
-            print(f"No last_modified.txt file found for {document_name}. It will be created after downloading the document.")
+            print(f"No last_modified file found for {document_name}. It will be created after downloading the document.")
             last_known_modified_time = None
 
         # If the document has been modified, download and replace it locally
