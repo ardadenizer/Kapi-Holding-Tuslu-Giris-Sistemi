@@ -1,3 +1,4 @@
 # Ignore credentials and token files
 scripts/token.pickle
 scripts/last_modified.txt
+scripts/last_modified
