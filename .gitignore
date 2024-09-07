@@ -1,4 +1,3 @@
 # Ignore credentials and token files
-scripts/credentials.json
 scripts/token.pickle
 scripts/last_modified.txt
