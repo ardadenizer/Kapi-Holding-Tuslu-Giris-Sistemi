@@ -1,0 +1,20 @@
+@startuml
+[*] --> Idle
+
+Idle: Blinks LEDs regularly\nWaiting for key input
+Idle --> KeyBeingEntered: Key Input Detected
+
+KeyBeingEntered: RegisterEnteredKeys();\nStartKeyPressIntervalTimer(KEY_INPUT_TIME_INTERVAL);\nWaits for KEY_INPUT_TIME_INTERVAL
+KeyBeingEntered --> AccessGranted: Key matches KEY_VALUE
+KeyBeingEntered --> AccessDenied: Key does not match KEY_VALUE
+
+AccessGranted: Trigger Buzzer Long Beep\nDrive LED in access granted pattern\nServo moves to SERVO_ANGLE to unlock door\nStarts timer for ACCESS_GRANT_TIME_INTERVAL\nServo is driven back to its original position
+AccessGranted --> Idle: ACCESS_GRANT_TIME_INTERVAL exceeded
+
+AccessDenied: Trigger short beeps\nLED blinks fast\nCounts wrong attempts
+AccessDenied --> Idle: WRONG_PASSWORD_ENTRY_COUNT not exceeded
+AccessDenied --> Locked: WRONG_PASSWORD_ENTRY_COUNT exceeded
+
+Locked: Waits for ACCESS_DENIED_RESET_TIME_INTERVAL
+Locked --> Idle: Timer exceeds ACCESS_DENIED_RESET_TIME_INTERVAL
+@enduml
