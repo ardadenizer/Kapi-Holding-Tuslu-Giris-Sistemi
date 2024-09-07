@@ -74,7 +74,7 @@ DOCS = {
 
 ## Important Notes
 * Security:
-Never share your credentials.json file or **token.pickle** file publicly. These contain sensitive credentials that can be used to access your Google account.
+Never share your **credentials.json** file or **token.pickle** file publicly. These contain sensitive credentials that can be used to access your Google account.
 Add these files to your **.gitignore** to prevent accidentally committing them to Git.
 * Rate Limits:
 Google APIs have usage limits. If you run the script too frequently, you may hit Google API rate limits. You can monitor your API usage in the [Google Cloud Console](https://console.cloud.google.com).
