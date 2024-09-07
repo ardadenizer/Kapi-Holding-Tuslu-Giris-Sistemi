@@ -6,6 +6,7 @@ Coskun Tasdemir'in  superpeer platformu ustunde  duzenledigi serinin proje repos
 ![Project Block Diagram](./docs/assets/project_block_diagram.png)
 
 # Python Requirements
+To sync the required documentation and to keep the documentation locally rather than remembering all the links, a python script is created. Below you can find more about it.
 ## Setting Up Python Environment
 To run the script, you need to have Python 3.x installed and set up in your environment. You'll also need to install the necessary Python packages.
 
@@ -23,7 +24,7 @@ It uses **credentials.json** for authentication details and stores tokens in tok
  2. Checking for Document Updates:
 
 The script checks the last modified time (revisionId) of each document defined in the DOCS dictionary.
-It compares this time with a locally stored last_modified.txt file for each document.
+It compares this time with a locally stored **last_modified.txt** file for each document.
 
  3. Downloading Updated Documents:
 
