@@ -85,7 +85,7 @@ def main():
             f.write(last_modified_time)
         # Optionally: Git commit the updated file
         os.system(f'git add {LOCAL_FILE_PATH}')
-        os.system(f'git commit -m "Updated document to latest version"')
+        os.system(f'git commit -m "Update functional_requirements.docx to latest version"')
         print("Document updated and committed to Git.")
     else:
         print("No changes detected in the document.")
