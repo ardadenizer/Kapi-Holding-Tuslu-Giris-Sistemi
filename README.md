@@ -2,7 +2,7 @@
 
 Coskun Tasdemir'in  superpeer platformu ustunde  duzenledigi serinin proje reposu.
 
-### Project Block Diagram:
+### Project High Level System Block Diagram:
 ![Project Block Diagram](./docs/assets/project_block_diagram.png)
 
 ### State Machine (WIP):
