@@ -23,7 +23,7 @@ token_path = os.getenv('GOOGLE_TOKEN_PATH', './token.pickle')
 
 # Path for the docs folder and last modified tracking folder
 DOCS_FOLDER_PATH = '../docs/'
-LAST_MODIFIED_FOLDER = 'scripts/last_modified/'
+LAST_MODIFIED_FOLDER = './last_modified/'
 
 def authenticate_google_docs_api():
     creds = None
