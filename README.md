@@ -2,8 +2,11 @@
 
 Coskun Tasdemir'in  superpeer platformu ustunde  duzenledigi serinin proje reposu.
 
-### Project Block Diagram:
+### Project High Level System Block Diagram:
 ![Project Block Diagram](./docs/assets/project_block_diagram.png)
+
+### State Machine (WIP):
+![Project State Machine](./docs/assets/state_machine.png)
 
 # Python Requirements
 To sync the required documentation and to keep the documentation locally rather than remembering all the links, a python script is created. Below you can find more about it.
