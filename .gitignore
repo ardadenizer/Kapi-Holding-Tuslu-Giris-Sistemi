@@ -2,3 +2,47 @@
 scripts/token.pickle
 scripts/last_modified.txt
 scripts/last_modified
+
+# STM32CubeIDE specific files
+/.settings/
+/.cproject
+.project
+/RemoteSystemsTempFiles/
+/.launches/
+/mxprojectconfig
+
+# Build artifacts and directories
+/Debug/
+/Release/
+/build/
+/out/
+
+# Object files and dependency files
+*.o
+*.d
+*.lst
+*.map
+*.axf
+*.elf
+*.bin
+*.hex
+*.srec
+*.swp
+*.log
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+
+# Miscellaneous IDE temp files
+/.metadata/
+
+# Do NOT ignore the STM32CubeMX configuration file
+!*.ioc
+
+# Keep source files
+!/Src/
+!/Inc/
+
